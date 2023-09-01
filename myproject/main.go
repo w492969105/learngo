@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	mymodule "github.com/w492969105/learngo"
+	mymodule "myproject/myexample"
 )
 
 func main() {

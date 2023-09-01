@@ -1,0 +1,16 @@
+// 声明 main 包
+package main
+
+//简单的go程序
+import (
+	"fmt" // 导入 fmt 包，打印字符串是需要用到
+)
+
+func main() { // 声明 main 主函数
+	fmt.Println("hello word") // 打印 hello word
+}
+
+----------go.mod内容----------
+module myproject
+
+go 1.20

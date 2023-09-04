@@ -1,5 +1,7 @@
 package main
 
-func main(){
-	
+import "github.com/w492969105/testgomodule" 
+
+func main() {
+ hello.TestHello()
 }

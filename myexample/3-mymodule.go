@@ -12,3 +12,6 @@ func HelloA(name string) string {
 	message := fmt.Sprintf("Hi, %v. Welcome!", name)
 	return message
 }
+func PrintVersion() {
+	fmt.Println("this is default version")
+}
